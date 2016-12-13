@@ -1,0 +1,15 @@
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Phonebook.dll
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Core.dll
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Platform.dll
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Core.pdb
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Core.xml
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\obj\Debug\Phonebook.Views.MainView.xaml.g.cs
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\obj\Debug\Phonebook.dll
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\obj\Debug\Phonebook.Views.ContactView.xaml.g.cs

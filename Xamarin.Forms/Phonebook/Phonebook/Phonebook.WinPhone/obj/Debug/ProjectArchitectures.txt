@@ -1,0 +1,2 @@
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook.WinPhone\Phonebook.WinPhone.csproj;neutral
+C:\VSWorkspace\Xamarin\Phonebook\Phonebook\Phonebook\Phonebook.csproj;neutral
