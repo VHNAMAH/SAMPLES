@@ -1,0 +1,1 @@
+C:\GitHub\GAB2016\VisionUWP\VisionUWP\VisionUWP.csproj;x86
