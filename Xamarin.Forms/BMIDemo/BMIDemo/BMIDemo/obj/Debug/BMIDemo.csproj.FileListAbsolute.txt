@@ -1,0 +1,17 @@
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\BMIDemo.dll
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\BMIDemo.pdb
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Core.dll
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Platform.dll
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Core.pdb
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Core.xml
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.csprojResolveAssemblyReference.cache
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.Views.AboutView.xaml.g.cs
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.Views.BMIView.xaml.g.cs
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.Views.BurgerView.xaml.g.cs
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.Views.MainView.xaml.g.cs
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.dll
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\obj\Debug\BMIDemo.pdb

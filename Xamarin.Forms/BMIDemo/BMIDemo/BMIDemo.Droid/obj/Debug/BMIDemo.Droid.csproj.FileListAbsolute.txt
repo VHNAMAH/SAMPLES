@@ -1,0 +1,1 @@
+C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo.Droid\obj\Debug\BMIDemo.Droid.csprojResolveAssemblyReference.cache
