@@ -86,7 +86,7 @@ namespace Navigation.Services
                 throw new Exception($"Page for {ViewModel} could not be found.");
 
             Page Target = Activator.CreateInstance(PageType) as Page;
-            ViewModelBase ViewModelInstance = ServiceLocator.Instance.Resolve(ViewModel) as ViewModelBase;
+            ViewModelBase ViewModelInstance = ResourceLocator.Instance.Resolve(ViewModel) as ViewModelBase;
             Target.BindingContext = ViewModelInstance;
 
             return Target;

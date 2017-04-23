@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace Navigation.Services
 {
-    public class ServiceLocator
+    public class ResourceLocator
     {
         private readonly IUnityContainer Unity;
-        private static readonly ServiceLocator _instance = new ServiceLocator();
+        private static readonly ResourceLocator _instance = new ResourceLocator();
 
-        public static ServiceLocator Instance
+        public static ResourceLocator Instance
         {
             get { return _instance; }
         }
 
-        protected ServiceLocator()
+        protected ResourceLocator()
         {
             Unity = new UnityContainer();
 

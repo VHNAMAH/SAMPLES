@@ -46,7 +46,7 @@ namespace Navigation.Helpers
 
         public ViewModelBase()
         {
-            Navigation = ServiceLocator.Instance.Resolve<INavigationService>();
+            Navigation = ResourceLocator.Instance.Resolve<INavigationService>();
             Parameter = null;
         }
 

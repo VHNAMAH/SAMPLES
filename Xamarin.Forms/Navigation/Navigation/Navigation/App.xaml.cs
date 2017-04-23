@@ -19,7 +19,7 @@ namespace Navigation
             MainPage = new NavigationPage();
 
             //INITIALIZING NAVIGATION
-            ServiceLocator.Instance.Resolve<INavigationService>().
+            ResourceLocator.Instance.Resolve<INavigationService>().
                 InitializeAsync(MainPage.Navigation);
         }
 
