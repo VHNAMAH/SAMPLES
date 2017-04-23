@@ -14,18 +14,14 @@ namespace Navigation.Services
     public class NavigationService : INavigationService
     {
         /// <summary>
-        /// MAPS VIEWMODELS TO THEIR SPECIFIC VIEWS
+        /// DICTIONARY THAT MAPS VIEWMODELS TO THEIR SPECIFIC VIEWS
         /// </summary>
         protected static readonly Dictionary<Type, Type> Mappings = new Dictionary<Type, Type>();
 
         /// <summary>
-        /// PROVIDES ACCESS TO THE APPLICATION ROOT FOR NAVIGATION
+        /// PROVIDES ACCESS TO THE APPLICATION ROOT NAVIGATION INTERFACE
+        /// + ABSTRACTION PROVIDED BY XAMARIN FORMS TO HIDE PLATFORM SPECIFIC NAVIGATION
         /// </summary>
-        protected static Application Current
-        {
-            get { return Application.Current; }
-        }
-
         private static INavigation _navigation;
         protected static INavigation Navigation
         {
@@ -45,24 +41,44 @@ namespace Navigation.Services
             Mappings.Add(typeof(WelcomeViewModel), typeof(WelcomeView));
             Mappings.Add(typeof(MainViewModel), typeof(MainView));
         }
+        
+        #region CONTRACT IMPLEMENTATION
+        /** THIS REGION PROVIDES THE IMPLEMENTATION FOR THE NAVIGATION SERVICE  
+         *  FAIR WARNING: THE LOGIC CAN BE CONFUSING
+         *  
+         *  THE INTERFACE PROVIDES DIFFERENT WAYS OF NAVIGATING TO A VIEW
+         *  INTERNALLY THE SERVICE USES AN INTERNAL NAVIGATION FUNCTION THAT IS
+         *  CALLED ACCORDINGLY  
+         * */
 
-        #region SERVICE IMPLEMENTATION
+        /// <summary>
+        /// INITIALIZES THE NAVIGATION SERVICE
+        /// </summary>
         public Task InitializeAsync(object Parameter)
         {
             _navigation = Parameter as INavigation;
             return NavigateToAsync<WelcomeViewModel>();
         }
 
+        /// <summary>
+        /// NAVIGATE TO A VIEW - RESOLVED BY THE VIEWMODEL TYPE
+        /// </summary>
         public Task NavigateToAsync<TViewModel>(object Parameter = null) where TViewModel : ViewModelBase
         {
             return InternalNavigateToAsync(typeof(TViewModel), Parameter);
         }
-
+        
+        /// <summary>
+        /// NAVIGATE TO A VIEW - RESOLVED BY THE VIEWMODEL TYPE PASSED AS A PARAMETER
+        /// </summary>
         public Task NavigateToAsync(Type ViewModelType, object Parameter = null)
         {
             return InternalNavigateToAsync(ViewModelType, Parameter);
         }
-
+        
+        /// <summary>
+        /// NAVIGATE BACK FROM A VIEW
+        /// </summary>
         public async Task NavigateBackAsync()
         {
             await Navigation.PopAsync();
@@ -70,6 +86,11 @@ namespace Navigation.Services
         #endregion
 
         #region INTERNAL OPERATIONS
+        /// <summary>
+        /// GETS A VIEW BOUND TO A VIEWMODEL VIA A FUNCTION
+        /// PERFORMS THE RAW NAVIGATION
+        /// INITIALIZES THE VIEWMODEL WITH PARAMETER (IF ANY)
+        /// </summary>
         protected virtual async Task InternalNavigateToAsync(Type ViewModel, object Parameter)
         {
             Page P = CreateAndBindPage(ViewModel, Parameter);
@@ -78,6 +99,10 @@ namespace Navigation.Services
             await (P.BindingContext as ViewModelBase).InitializeAsync(Parameter);
         }
 
+        /// <summary>
+        /// CREATES AN INSTANCE OF THE VIEW
+        /// CREATES AND BIND AN INSTANCE OF THE VIEWMODEL
+        /// </summary>
         protected Page CreateAndBindPage(Type ViewModel, object Parameter)
         {
             Type PageType = GetPageTypeForViewModel(ViewModel);
@@ -92,6 +117,9 @@ namespace Navigation.Services
             return Target;
         }
 
+        /// <summary>
+        /// RETURNS THE VIEW MAPPED TO A VIEWMODEL
+        /// </summary>
         private static Type GetPageTypeForViewModel(Type ViewModel)
         {
             if (!Mappings.ContainsKey(ViewModel))
