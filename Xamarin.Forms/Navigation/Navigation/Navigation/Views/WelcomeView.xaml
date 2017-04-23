@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation.Views.WelcomeView">
+  
+  <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="15">
+    <Label Text="ENTER YOUR NAME" HorizontalOptions="Center"/>
+    <Entry Placeholder="[USER NAME]" HorizontalOptions="FillAndExpand" Text="{Binding Master.Name}" />
+    <Button Text="PROCEED" Command="{Binding NavigateToMain}" HorizontalOptions="CenterAndExpand"/>
+  </StackLayout>
+
+</ContentPage>
