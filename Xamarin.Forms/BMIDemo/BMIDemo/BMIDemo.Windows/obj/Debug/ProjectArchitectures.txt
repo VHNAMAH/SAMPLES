@@ -1,2 +1,0 @@
-C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo.Windows\BMIDemo.Windows.csproj;neutral
-C:\VSWorkspace\Xamarin\BMIDemo\BMIDemo\BMIDemo\BMIDemo.csproj;neutral

@@ -1,2 +1,0 @@
-C:\GitHub\Samples\Xamarin.Forms\Navigation\Navigation\Navigation.UWP\Navigation.UWP.csproj;arm
-C:\GitHub\Samples\Xamarin.Forms\Navigation\Navigation\Navigation\Navigation.csproj;neutral
