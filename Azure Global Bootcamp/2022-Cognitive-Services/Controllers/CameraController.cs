@@ -12,8 +12,8 @@ public class CameraController : Controller
     private readonly ILogger<CameraController> _logger;
     
     // Add your Computer Vision subscription key and endpoint
-    private static string key = "5db0c5452773476da477c5749caaa6dd";
-    private static string endpoint = "https://cognitive-bootcamp.cognitiveservices.azure.com/";
+    private static string key = "----";
+    private static string endpoint = "----";
 
 
     public CameraController(ILogger<CameraController> logger)
