@@ -2,5 +2,5 @@
 
 > SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+## OVERVIEW
+Universal Windows Platform application developed for Windows 8 (+) using Microsoft Cognitive Services > Vision API.
