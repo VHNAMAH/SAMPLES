@@ -2,5 +2,7 @@
 
 > SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+## Overview
+BMI Application developed in Xamarin Forms.
+
+See https://vnsnippets.github.io/articles/xamarin-series-mvvm/
