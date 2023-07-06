@@ -2,5 +2,7 @@
 
 > SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+### OVERVIEW
+Content related to Test-Driven Development (focused on .NET API development)
+
+![Unit-Testing-Flow](./Assets/Unit-Testing-Flow.jpg)
