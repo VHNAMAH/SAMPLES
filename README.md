@@ -1,6 +1,11 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+### WELCOME
+This is a master repository for all code snippets, samples and demo content from presentations, conferences and meetups.
 
-> SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
+I have classified each code sample into its own branch:
+- Cognitive Services (UWP)
+- Azure Global Bootcamps
+- Krakathon (Questions)
+- Test Driven Development
+- ML .NET Application
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+> I intend to keep refining my approach in the hopes of providing a structured way of accessing those codes
