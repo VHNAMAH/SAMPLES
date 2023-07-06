@@ -2,5 +2,10 @@
 
 > SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+### OVERVIEW
+Demo material for ML.NET presentation
+
+#### Instructions
+- Run the Console application to generate a model
+- The model will be saved as a ZIP file in `Sentiment.Common/Resources`
+- The generated model ZIP file must be copied into `Sentiment.Web/Resources` for the Web API to work
