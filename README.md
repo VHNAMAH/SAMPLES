@@ -1,6 +1,10 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+> DISCLAIMER   
+I have absolutely no idea if I can publicize these documents - feel free to educate me if I'm about to make a boo-boo.
 
-> SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
+### OVERVIEW
+Compilation of exercise questions from Krakathon (Mauritius)
+***
 
-# PROJECT SAMPLES
-Repository to hold all sample codes from conferences and demonstrations.
+|Year|Questions|Solutions|
+|-|-|-|
+|2019|45|0|
