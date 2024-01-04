@@ -1,11 +1,9 @@
-### WELCOME
-This is a master repository for all code snippets, samples and demo content from conferences and meetups.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+> SOME PROJECTS IN THIS REPOSITORY MAY BE INCOMPLETE AS BRIEF SNIPPETS FOR A QUICK DEMO
 
-Each code sample has been filed into its own branch:
-- Cognitive Services (UWP)
-- Azure Global Bootcamps
-- Krakathon (Questions)
-- Test Driven Development
-- ML .NET Application
+### OVERVIEW
+MSCC Meetup (January 2024)   
+Adding Lottie animations to .NET MAUI Applications
 
-> I intend to keep refining my approach in the hopes of providing a structured way of accessing those codes
+#### Instructions
+For starters, try to run it.
