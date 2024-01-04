@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DC2023.Pages.Containers.TitlePage"
+             BackgroundColor="White"
+             Title="KICKOFF">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Black" />
+        </Style>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="15">
+        <Label 
+            Text="DEVELOPERS CONFERENCE 2023"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Header"
+            FontAttributes="Bold" />
+
+        <Label 
+            Text=".NET MAUI x BLAZOR"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Large" />
+    </VerticalStackLayout>
+</ContentPage>

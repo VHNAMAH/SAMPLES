@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:LOCAL="clr-namespace:DC2023"
+             xmlns:PAGES="clr-namespace:DC2023.Pages.Containers"
+             x:Class="DC2023.MainPage"
+             Padding="10">
+
+    <PAGES:TitlePage />
+    <PAGES:Introduction />
+    <PAGES:Theory />
+    <PAGES:Snippets />
+    <PAGES:SamplePage />
+
+</TabbedPage>

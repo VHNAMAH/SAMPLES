@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DC2023.Pages.Containers.Introduction"
+    Title="INTRODUCTION">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor">
+                <Setter.Value>
+                    <OnPlatform x:TypeArguments="Color" Default="White">
+                        <On Platform="Android" Value="Black" />
+                    </OnPlatform>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+        <Image 
+            Source="profile.png" 
+            Aspect="AspectFit" 
+            MaximumHeightRequest="200" MaximumWidthRequest="200" 
+            VerticalOptions="Center" HorizontalOptions="Center"
+            Margin="0,0,0,15" />
+        <Label FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center">Vidush H. Namah</Label>
+        <Label FontSize="Medium" HorizontalOptions="Center" Margin="0,0,0,10">IT Professional 👩‍💻 | Consultancy 🚀 | Coaching 🎓</Label>
+        <Label FontSize="Medium" HorizontalOptions="Center">Orion Consulting (Mauritius)</Label>
+        <Label FontSize="Medium" HorizontalOptions="Center" Margin="0,0,0,15">Product Owner @ SD Worx</Label>
+        <Label FontSize="Medium" HorizontalOptions="Center">👨‍💻 This is the only industry that promotes laziness</Label>
+    </VerticalStackLayout>
+
+</ContentPage>

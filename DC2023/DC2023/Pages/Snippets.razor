@@ -1,0 +1,106 @@
+﻿@page "/Snippets"
+
+@using DC2023.Shared;
+
+<div class="text-black min-vh-100 d-flex flex-column align-items-center justify-content-center position-relative pb-5">
+    <div class="text-center">
+        <h3 class="pb-5 lh-1 fw-bold">🚀 MAUI LAUNCHER</h3>
+    </div>
+
+    <div class="text-white bg-custom-dark rounded-md font-monospace p-5 display-6">
+        <pre>var builder = MauiApp.CreateBuilder();
+builder
+	.UseMauiApp&lt;App&gt;()
+	.ConfigureFonts(fonts =&gt;
+	{
+		fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+		fonts.AddFont("Poppin-Regular.ttf", "PoppinsRegular");
+    });
+
+builder.Services.AddMauiBlazorWebView();</pre>
+    </div>
+
+    <div class="text-center">
+        <h6 class="pt-4">THE GUY THIS MORNING DID NOT TELL ME WHAT HE SUPPORTS ME IN</h6>
+    </div>
+
+    <ScrollPageButton />
+</div>
+
+<div class="text-black min-vh-100 d-flex flex-column align-items-center justify-content-center position-relative pb-5">
+    <div class="text-center">
+        <h3 class="pb-4 lh-1 fw-bold">📄 MAIN PAGE (XAML)</h3>
+    </div>
+
+    <div class="text-white bg-custom-dark rounded-md font-monospace p-5 display-6">
+        <pre>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:LOCAL="clr-namespace:DC2023"
+             xmlns:PAGES="clr-namespace:DC2023.Pages.Containers"
+             x:Class="DC2023.MainPage"&gt;
+
+    <span>&lt;BlazorWebView HostPage="wwwroot/index.html"&gt;
+        &lt;BlazorWebView.RootComponents&gt;
+            &lt;RootComponent Selector="#app" ComponentType="{x:Type LOCAL:Main}" /&gt;
+        &lt;/BlazorWebView.RootComponents&gt;
+    &lt;/BlazorWebView&gt;</span>
+
+&lt;/ContentPage&gt;</pre>
+    </div>
+
+    <ScrollPageButton />
+</div>
+
+<div class="text-black min-vh-100 d-flex flex-column align-items-center justify-content-center position-relative pb-5">
+    <div class="text-center">
+        <h3 class="pb-4 lh-1 fw-bold">🪒 MAIN (RAZOR)</h3>
+    </div>
+
+    <div class="text-white bg-custom-dark rounded-md font-monospace p-5 display-6">
+        <pre>&commat;page "/"
+
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+Welcome to your new app.
+
+&lt;SurveyPrompt Title="How is Blazor working for you?" /&gt;</pre>
+    </div>
+
+    <ScrollPageButton />
+</div>
+
+<div class="text-black min-vh-100 d-flex flex-column align-items-center justify-content-center position-relative pb-5">
+    <div class="text-center">
+        <h3 class="pb-4 lh-1 fw-bold">📈 SURVEY PROMPT (RAZOR)</h3>
+    </div>
+
+    <div class="text-white bg-custom-dark rounded-md font-monospace p-5">
+        <pre>&lt;div class="alert alert-secondary mt-4"&gt;
+    &lt;span class="oi oi-pencil me-2" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;strong&gt;&commat;Title&lt;/strong&gt;
+
+    &lt;span class="text-nowrap"&gt;
+        Please take our
+        &lt;a
+            target="_blank"
+            class="font-weight-bold link-dark"
+            href="https://go.microsoft.com/fwlink/?linkid=2188693"
+        &gt;
+            brief survey
+        &lt;/a&gt;
+    &lt;/span&gt;
+    and tell us what you think.
+&lt;/div&gt;
+
+&commat;code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string Title { get; set; }
+}</pre>
+    </div>
+</div>
+
+@code {
+
+}

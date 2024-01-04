@@ -1,0 +1,13 @@
+﻿@inject IJSRuntime JS
+
+<div class="position-absolute absolute-floating p-5">
+    <a @onclick="ScrollDown" class="btn-secondary p-4 rounded-circle bg-light text-black"><i class="fa fa-arrow-down" /></a>
+</div>
+
+@code {
+
+    private async Task ScrollDown()
+    {
+        await JS.InvokeAsync<string>("ScrollFullPage");
+    }
+}
