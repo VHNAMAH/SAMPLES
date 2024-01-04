@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MU202401.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MU202401.Pages"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="MEETUP 2024 01"
+        ContentTemplate="{DataTemplate local:DemoPage}"
+        Route="Home">
+        <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
+    </ShellContent>
+
+</Shell>
