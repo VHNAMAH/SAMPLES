@@ -18,7 +18,7 @@ A basic animated image can:
 - Indicate that something is happening   
   E.g. An animated card reader to show payment was successful
 
-![./Media/Lottie-Animations-Example.gif](Example)
+![Lottie Animations Example](./Media/Lottie-Animations-Example.gif)
 
 
 ## What will you need?
